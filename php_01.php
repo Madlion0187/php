@@ -1,18 +1,12 @@
 <?php
 
 $name;
-
 $age = 18;
-
 $name = "Norbi";
-
 $int_number = 25;
 $float_number = 45.55;
-
 $string_type = "Learn php";
-
 $boolean_type = true;
-
 $array_type1 = ["Jack", "Mike", "Nadja"];
 $mixed_array = array(15,25,"560",true,false);
 
@@ -34,3 +28,7 @@ $number = 9;
 $city = "Beijing";
 
 printf("\nThere are %d million bicycles in %s \n\n", $number, $city);
+
+// Constants
+define("MY_NAME", "Norbert");
+echo MY_NAME;
